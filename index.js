@@ -3,8 +3,6 @@ const fs = require('fs');
 // require the discord.js module
 const Discord = require('discord.js');
 
-const request = require('request');
-const testClass = require('./commands/helper.js');
 // add config and prefix
 const {
 	prefix,
@@ -31,16 +29,11 @@ const cooldowns = new Discord.Collection();
 // this event will only trigger one time after logging in
 client.once('ready', () => {
 	// client.user.setActivity('Randomizing');
-	client.user.setActivity(`Spinning the wheel on ${client.guilds.size} servers`);
+	client.user.setActivity('Checking Price');
 	console.log(`Ready to serve on ${client.guilds.size} servers, for ${client.users.size} users.`);
 	// console.log('Ready!');
 });
 
-// UpperCase
-const capitalize = (s) => {
-	if (typeof s !== 'string') return '';
-	return s.charAt(0).toUpperCase() + s.slice(1);
-};
 // Listening for messages
 client.on('message', message => {
 	// If the message either doesn't start with the prefix or was sent by a bot, exit early.
