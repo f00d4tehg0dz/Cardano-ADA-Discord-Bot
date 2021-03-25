@@ -1,8 +1,8 @@
-# The Wheelhaus Discord Bot
+# The Cardano ADA Ticker Bot
 
-The Wheelhaus Discord Bot is a prototype discord bot for thewheelhaus.com
+The Cardano ADA Ticker Bot is meant to just showcase the latest price
 
-[Invite the bot to your server!](https://discordapp.com/oauth2/authorize?client_id=636141023789056002&scope=bot&permissions=0) 
+[Invite the bot to your server!](https://discordapp.com/oauth2/authorize?client_id=824648378511917096&scope=bot&permissions=0) 
 
 ![screenshot.JPG](doc/screenshot.JPG)
 
@@ -13,7 +13,7 @@ Download [nodejs](https://nodejs.org/en/download/)
 Clone repository
 
 ```bash
-git clone https://github.com/f00d4tehg0dz/TheWheelhaus-Discord-Bot.git
+git clone https://github.com/f00d4tehg0dz/Cardano-ADA-Discord-Bot.git
 ```
 cd into directory and run 
 
@@ -30,9 +30,8 @@ node index.js
 ## Usage
 
 ```bash
-!shuffle  
-!user <insertusername>
-!tags <inserttags>
+$ada
+$support
 ```
 
 ## Contributing
